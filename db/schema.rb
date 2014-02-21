@@ -11,19 +11,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20140221162522) do
 
-  create_table "articles", :force => true do |t|
-    t.string   "title"
-    t.text     "context"
-=======
 ActiveRecord::Schema.define(:version => 20140220014742) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
     t.text     "content"
->>>>>>> 55cfdc3e68739a164b090b8e130bc200134a62d8
     t.integer  "category_id"
     t.boolean  "active"
     t.datetime "created_at",  :null => false
